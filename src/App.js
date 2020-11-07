@@ -90,14 +90,13 @@ constructor(props) {
   renderOnWin() {
     return (
       <div className="winScreen">
-
-        <div className="winScreen__content">        
-          <p>YOU WIN!</p>
+        <div className="winScreen_image"></div>
+               
           <div className="winScreen_btn_group">          
             <button className="btn white">REPLAY</button>
             <a className="btn black" href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020">MORE INFO</a>
           </div>
-        </div>
+        
 
       </div>
     )
@@ -146,7 +145,7 @@ constructor(props) {
         <Cards cardData = {cardData}  _handleSelection={this.handleSelection.bind(this)} _openModal = {this.openModal.bind(this)} />
         <div style={{display: `${showModal}`}} className="colorModal" onClick={this.closeModal} > 
           
-          <img src={modalContent.img} alt="modal image" />
+          <div style={{backgroundImage: `url(${modalContent.img})`}} alt="modal image" className="modal_image"> </div>
           <a className="btn white" href={modalContent.link} onClick={(e) => e.stopPropagation()} target="_blank"> MORE INFO </a> 
           
         </div>

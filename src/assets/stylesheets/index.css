@@ -151,19 +151,40 @@ img.description__logo {
 }
 
 .winScreen {
-  width: 100%;
-  background-image: url('../images/2020_modal.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  display: flex;
   flex-direction: column;
+  position: absolute;
+  width: 100%;
   height: 100%;
+  z-index: 990;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
 }
 
+.winScreen > .winScreen_image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url('../images/2020_modal.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .winScreen_btn_group {
+  width: 30%;
+  position: absolute;
+  bottom: 150px;
+  z-index: 999;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  
 }
+
 
 .btn {
   width: 280px;
@@ -171,7 +192,7 @@ img.description__logo {
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-  line-height: 90px;
+  /*line-height: 90px;*/
   color: white;
   background-color: transparent;
   cursor: pointer;
@@ -203,7 +224,6 @@ img.description__logo {
 }
 
 .colorModal {
-  font-size: 200px;
   flex-direction: column;
   position: absolute;
   width: 100%;
@@ -215,10 +235,13 @@ img.description__logo {
   top: 0;
 }
 
-.colorModal > img {
+.colorModal > .modal_image {
   width: 100%;
   height: 100%;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .colorModal > .btn {
