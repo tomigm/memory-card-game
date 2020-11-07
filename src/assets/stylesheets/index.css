@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/*
+COLORS:
+
+2010 - 45B8AC
+2011 - D65076
+2012 - DD4124
+2013 - 009874
+2014 - AD5E99
+2015 - 964F4C
+2016 - 93A9D1
+2017 - 88B04B
+2018 - 5F4B8B
+2019 - FF6F61
+2020 - 0F4C81
+
+*/
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+header {
+  display: block;
+  width: 100%;
+}
+
+.main_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0em 1em;
+}
+
+.main_header__logo {
+  width: 200px;
+}
+
+.main_header >  h1 {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3rem;
+
+}
+
+#counter {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3rem;
+
+}
+
+.sub_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 45px;
+  background-color: #0F4C81;
+
+}
+
+.sub_header__title  {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 0.6em;
+  color: #FFFFFF;
+}
+
+
+#highScore {
+  font-style: normal;
+  font-size: 1.5rem;
+  padding: 0 1em;
+  color: #FFFFFF;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img.description__logo {
+  width: 100px;
+}
+
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(5, 200px);
+  justify-content: center;
+  
+  gap: 3em 8em;
+  margin: 3em 10em;
+  margin-bottom: 0;
+  }
+
+  .card {
+    cursor: crosshair;
+  }
+
+  .card__colorBox {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.plus_icon:hover {
+  background-color: #ffffffa1;
+}
+
+.plus_icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ffffff66;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 1.5em;
+  line-height: 25px;
+  cursor: pointer;
+  z-index: 9;
+}
+
+.card__description {
+  border: 1px solid #DBDBDB;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0.5em;
+}
+
+.card__description > * {
+  padding: 0.3em;
+}
+
+.winScreen {
+  width: 100%;
+  background-image: url('../images/2020_modal.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  height: 100%;
+}
+
+.winScreen_btn_group {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 280px;
+  height: 90px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 90px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn.white {
+  border: 6px solid white;
+}
+
+.btn.white:hover {
+  background-color: #00000096;
+}
+
+.btn.black {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn.black:hover {
+  background-color: rgb(59, 59, 59)
+}
+
+.section_wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.colorModal {
+  font-size: 200px;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 990;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+.colorModal > img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.colorModal > .btn {
+  position: absolute;
+  bottom: 150px;
+  z-index: 999;
+}
