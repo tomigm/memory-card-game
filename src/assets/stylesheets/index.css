@@ -186,18 +186,22 @@ img.description__logo {
 }
 
 
+
+
 .btn {
   width: 280px;
   height: 90px;
   text-align: center;
   font-weight: bold;
   font-size: 2rem;
-  /*line-height: 90px;*/
+  line-height: 84px;
   color: white;
   background-color: transparent;
   cursor: pointer;
   text-decoration: none;
   text-align: center;
+  outline:none;
+  box-sizing: border-box;
 }
 
 .btn.white {

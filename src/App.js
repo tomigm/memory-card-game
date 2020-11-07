@@ -93,8 +93,8 @@ constructor(props) {
         <div className="winScreen_image"></div>
                
           <div className="winScreen_btn_group">          
-            <button className="btn white">REPLAY</button>
-            <a className="btn black" href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020">MORE INFO</a>
+            <a className="btn white">REPLAY</a>
+            <a className="btn black" target="_blank" href="https://www.pantone.com/color-intelligence/color-of-the-year/color-of-the-year-2020">MORE INFO</a>
           </div>
         
 
