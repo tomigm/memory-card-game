@@ -125,11 +125,11 @@ constructor(props) {
         <div className="main_header">
           <img src={logo} alt="pantone main logo" className="main_header__logo"/>
           <h1>A DECADE IN COLORS</h1>
-          <a id="counter"  href="#0">Points: { counter }</a>
+          <a id="counter"  >Points: { counter }</a>
         </div>
         <div className="sub_header">
           <h2 className="sub_header__title">Discover & play! - Get points by clicking on each color but don't click on any more than once!</h2>
-          <a id="highScore"  href="#0">High Score: { highScore }</a>
+          <a id="highScore">High Score: { highScore }</a>
 
         </div>     
         
