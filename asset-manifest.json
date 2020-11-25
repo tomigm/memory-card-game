@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memory-card-game/static/css/main.ba77bea8.chunk.css",
+    "main.js": "/memory-card-game/static/js/main.385696d2.chunk.js",
+    "main.js.map": "/memory-card-game/static/js/main.385696d2.chunk.js.map",
+    "runtime-main.js": "/memory-card-game/static/js/runtime-main.36adb196.js",
+    "runtime-main.js.map": "/memory-card-game/static/js/runtime-main.36adb196.js.map",
+    "static/js/2.d898b70b.chunk.js": "/memory-card-game/static/js/2.d898b70b.chunk.js",
+    "static/js/2.d898b70b.chunk.js.map": "/memory-card-game/static/js/2.d898b70b.chunk.js.map",
+    "index.html": "/memory-card-game/index.html",
+    "static/css/main.ba77bea8.chunk.css.map": "/memory-card-game/static/css/main.ba77bea8.chunk.css.map",
+    "static/js/2.d898b70b.chunk.js.LICENSE.txt": "/memory-card-game/static/js/2.d898b70b.chunk.js.LICENSE.txt",
+    "static/media/2010_modal.e0186113.png": "/memory-card-game/static/media/2010_modal.e0186113.png",
+    "static/media/2011_modal.6522d8a6.png": "/memory-card-game/static/media/2011_modal.6522d8a6.png",
+    "static/media/2012_modal.21c553af.png": "/memory-card-game/static/media/2012_modal.21c553af.png",
+    "static/media/2013_modal.e8f43df0.png": "/memory-card-game/static/media/2013_modal.e8f43df0.png",
+    "static/media/2014_modal.83882d7b.png": "/memory-card-game/static/media/2014_modal.83882d7b.png",
+    "static/media/2015_modal.725f03ec.png": "/memory-card-game/static/media/2015_modal.725f03ec.png",
+    "static/media/2016_modal.621d3284.png": "/memory-card-game/static/media/2016_modal.621d3284.png",
+    "static/media/2017_modal.38a5a6f7.png": "/memory-card-game/static/media/2017_modal.38a5a6f7.png",
+    "static/media/2018_modal.dfff7a94.png": "/memory-card-game/static/media/2018_modal.dfff7a94.png",
+    "static/media/2019_modal.192c373a.png": "/memory-card-game/static/media/2019_modal.192c373a.png",
+    "static/media/index.css": "/memory-card-game/static/media/2020_modal.862a982f.png",
+    "static/media/Pantone_logo.0c86d3e5.svg": "/memory-card-game/static/media/Pantone_logo.0c86d3e5.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36adb196.js",
+    "static/js/2.d898b70b.chunk.js",
+    "static/css/main.ba77bea8.chunk.css",
+    "static/js/main.385696d2.chunk.js"
+  ]
+}
